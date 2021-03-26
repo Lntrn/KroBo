@@ -17,10 +17,6 @@ module.exports = {
 
 		const Config = JSON.parse(fs.readFileSync('./utilities/config.json', 'utf8'));
 
-		if (!Config.debug) {
-			message.delete({timeout: 1000});
-		};
-
 		if (message.member.roles.cache.has(Roles.admin.id) || message.member.hasPermission("ADMINISTRATOR")) {
 
             // Joining the arguments in to one long string

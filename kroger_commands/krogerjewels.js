@@ -104,7 +104,7 @@ module.exports = [
       "wiki": "",
       "card": 20,
       "effect": "Gives [Myth Giver](http://www.wizard101central.com/wiki/PetAbility:Myth-Giver) pet ability\n> 1% - 6% (9%) Myth damage\nGives [Keeper of the Flame]() pet ability\n> Adds a [Keeper of the Flame](http://www.wizard101central.com/wiki/ItemCard:Keeper_of_the_Flame) item card to your deck",
-      "triggers": "An ally takes damage from an enemy attack or fizzles an attack spell",
+      "triggers": "",
       "image": "http://www.wizard101central.com/wiki/images/f/fa/%28Item_Card%29_Keeper_of_the_Flame.png"
     },
     {

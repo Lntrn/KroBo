@@ -17,10 +17,6 @@ module.exports = {
 
 		const Config = JSON.parse(fs.readFileSync('./utilities/config.json', 'utf8'));
 
-		if (!Config.debug) {
-			message.delete({timeout: 1000});
-		};
-
 		if (message.member.roles.cache.has(Roles.admin.id) || message.member.hasPermission("ADMINISTRATOR")) {
 	    	const deleteME = new Discord.MessageEmbed()
 			.setColor("#2399fa")
