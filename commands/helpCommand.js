@@ -18,13 +18,7 @@ module.exports = {
 
 			const helpEmbed = new Discord.MessageEmbed()
 				.setColor("#310ff5")
-				.addField(` ‎`, `**Need help understanding the numbers beside each talent? Try \`t!guide\`**\n*Prefix: **t!**\nUniversal Prefix: <@${client.user.id}>*\nUse command aliases, not command names.`)
-				.addField(`\`sourceCode\``, `> Directly messages a link to the bot's Github page to the command author.\n> **Aliases**: \`source\`\n> ex. \<@${client.user.id}> sourceCode`)
-				.addField(`\`talentSearch\``, `> Checks for multiple talents, seperated by commas, in the database.\n> **Aliases**: \`ts\`, \`talents\`\n> ex. <@${client.user.id}> ts <talent one>, <talent two>, etc...`)
-				.addField(`\`talentsInbetween\` *limit: 35*`, `> Checks for all talents inbetween two known talents. Can also filter by specific talent rank.\n> **Aliases**: \`tib\`\n> ex. <@${client.user.id}> tib balancespear, add health, rare`)
-				.addField(`\`plainTIB\` `, `> Exactly like the \`tib\` command, just has no limit and does not return the url.\n> **Aliases**: \`ptib\`\n> ex. <@${client.user.id}> ptib spell proof, spell defying, rare`)
-				.addField("MAX PET STATS (2.0)", `__**Strength**   ‎  ‎  ‎ ‎ ‎‎ ‎‎255__ ${Emojis.strength.pub}\n__**Intellect**   ‎  ‎  ‎ ‎  ‎ ‎ 250__ ${Emojis.intellect.pub}\n__**Agility‎**   ‎ ‎  ‎  ‎  ‎    ‎    ‎ ‎ ‎ 260__ ‎${Emojis.agility.pub}\n__**Will**   ‎ ‎ ‎   ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 260__ ‎${Emojis.will.pub}\n__**Power‎**  ‎ ‎ ‎   ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎250__ ${Emojis.power.pub}\n__**Happiness**   ‎  ‎ 1275__ ${Emojis.happiness.pub}`, true)
-				.addField("LEVEL XP REQUIREMENTS", `__**Teen**:    ‎    ‎ ‎     ‎  ‎  ‎ ‎ ‎ ‎  ‎ ‎ 125__   ${Emojis.wizxp.pub}\n__**Adult**:   ‎  ‎   ‎ ‎‎‎    ‎  ‎ ‎  ‎ ‎ 250__   ${Emojis.wizxp.pub}\n__**Ancient**:    ‎  ‎  ‎ ‎  ‎ 525__   ${Emojis.wizxp.pub}\n__**Epic**:    ‎  ‎  ‎ ‎    ‎  ‎  ‎ ‎  ‎ ‎   ‎ ‎ 1050__   ${Emojis.wizxp.pub}\n__**Mega**:    ‎  ‎     ‎   ‎ ‎  ‎ ‎  ‎ ‎ 2125__   ${Emojis.wizxp.pub}\n__**Ultra**:    ‎  ‎     ‎  ‎   ‎ ‎  ‎ ‎  ‎ ‎ 2250__   ${Emojis.wizxp.pub}`, true)
+				.addField(`\`search\``, `> Searches for Kroger jewels based on user input, checks for months, name, or kroger card.\n> **Aliases**: NA\n> ex. <@${client.user.id}> search may, frozen solid, april`)
 				.setFooter(Format.footer.desc, Format.footer.image)
 				
 			message.channel.send(helpEmbed);

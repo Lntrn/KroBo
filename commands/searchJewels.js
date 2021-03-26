@@ -4,7 +4,7 @@ const Channels = require("../utilities/channels.js");
 const Format = require("../utilities/format.js");
 const Roles = require("../utilities/roles.js");
 
-const Jewels = require("./krogerjewels.js");
+const Jewels = require("../utilities/krogerjewels.js");
 
 const Discord = require("discord.js");
 

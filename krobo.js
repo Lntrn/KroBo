@@ -36,7 +36,7 @@ client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.events = new Discord.Collection();
 
-const modules = ["commands", "dev_commands", "admin_commands", "kroger_commands"];
+const modules = ["commands", "dev_commands", "admin_commands"];
 
 client.commands = new Enmap();
 
